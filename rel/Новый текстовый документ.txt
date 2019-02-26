@@ -1,0 +1,4 @@
+sc create "SvcExec" binPath= svc_master.exe
+sc delete "SvcExec"
+
+sc create "SvcExec" binPath= "C:\Users\igor1\Desktop\svc_exec-master\rel\svc_master.exe" DisplayName= "SvcExec" start= auto
